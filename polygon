@@ -1,0 +1,28 @@
+public class Polygon {
+    private int side;
+    private double length;
+    private String type ;
+
+    public Polygon(){
+
+        side = 3;
+        length = 1;
+        type = "triangle";
+    }
+    public Polygon(int NumSides, double SideLength, String ShapeType){
+
+        side = NumSides;
+        length = SideLength;
+        type = ShapeType;
+    }
+    public String getShapeType(){
+        return type;
+    }
+    public double getSideLength(){
+        return length;
+    }
+    public int getNumSides(){
+        return side;
+    }
+    }
+}
